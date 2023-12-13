@@ -1,0 +1,8 @@
+CRITICAL - 2023-06-04 01:24:39 --> include(header.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\ResultAnalysis.php on line 16.
+ 1 APPPATH\Controllers\ResultAnalysis.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\result_analysis\\app\\Controllers\\ResultAnalysis.php', 16)
+ 2 APPPATH\Controllers\ResultAnalysis.php(16): include()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ResultAnalysis->fetchResults()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResultAnalysis))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()

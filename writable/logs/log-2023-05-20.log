@@ -1,0 +1,12 @@
+CRITICAL - 2023-05-20 12:19:29 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Upload.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 12:45:54 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Upload.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()

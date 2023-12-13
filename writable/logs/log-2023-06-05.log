@@ -1,0 +1,79 @@
+CRITICAL - 2023-06-05 06:19:05 --> Unclosed '{' on line 7
+in APPPATH\Controllers\ResultAnalysis.php on line 124.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\result_analysis\\app\\Controllers\\ResultAnalysis.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ResultAnalysis')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ResultAnalysis')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\ResultAnalysis', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 06:19:07 --> Unclosed '{' on line 7
+in APPPATH\Controllers\ResultAnalysis.php on line 124.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\result_analysis\\app\\Controllers\\ResultAnalysis.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ResultAnalysis')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ResultAnalysis')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\ResultAnalysis', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 06:36:56 --> Unclosed '{' on line 7
+in APPPATH\Controllers\ResultAnalysis.php on line 114.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\result_analysis\\app\\Controllers\\ResultAnalysis.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ResultAnalysis')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ResultAnalysis')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\ResultAnalysis', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 07:07:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=== '8.3'' at line 1 in C:\xampp\htdocs\result_analysis\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\result_analysis\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT name FRO...', 0)
+#1 C:\xampp\htdocs\result_analysis\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 C:\xampp\htdocs\result_analysis\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 C:\xampp\htdocs\result_analysis\app\Controllers\ResultAnalysis.php(92): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 C:\xampp\htdocs\result_analysis\system\CodeIgniter.php(934): App\Controllers\ResultAnalysis->fetchResults()
+#5 C:\xampp\htdocs\result_analysis\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResultAnalysis))
+#6 C:\xampp\htdocs\result_analysis\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\result_analysis\index.php(68): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-05 07:07:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=== '8.3'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT name FROM copy_of_sem4_term_212 WHERE SPI === \'8.3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM copy_of_sem4_term_212 WHERE SPI === \'8.3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM copy_of_sem4_term_212 WHERE SPI === \'8.3\'')
+ 4 APPPATH\Controllers\ResultAnalysis.php(92): CodeIgniter\Database\BaseConnection->query('SELECT name FROM copy_of_sem4_term_212 WHERE SPI === \'8.3\'')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ResultAnalysis->fetchResults()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResultAnalysis))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-05 07:08:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '8.3'' at line 1 in C:\xampp\htdocs\result_analysis\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\result_analysis\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT name FRO...', 0)
+#1 C:\xampp\htdocs\result_analysis\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 C:\xampp\htdocs\result_analysis\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 C:\xampp\htdocs\result_analysis\app\Controllers\ResultAnalysis.php(92): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 C:\xampp\htdocs\result_analysis\system\CodeIgniter.php(934): App\Controllers\ResultAnalysis->fetchResults()
+#5 C:\xampp\htdocs\result_analysis\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResultAnalysis))
+#6 C:\xampp\htdocs\result_analysis\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\result_analysis\index.php(68): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-05 07:08:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '8.3'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT name FROM copy_of_sem4_term_212 WHERE SPI == \'8.3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM copy_of_sem4_term_212 WHERE SPI == \'8.3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM copy_of_sem4_term_212 WHERE SPI == \'8.3\'')
+ 4 APPPATH\Controllers\ResultAnalysis.php(92): CodeIgniter\Database\BaseConnection->query('SELECT name FROM copy_of_sem4_term_212 WHERE SPI == \'8.3\'')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ResultAnalysis->fetchResults()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResultAnalysis))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-05 10:58:05 --> mysqli::query(): Argument #1 ($query) cannot be empty
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('')
+ 4 APPPATH\Controllers\ResultAnalysis.php(252): CodeIgniter\Database\BaseConnection->query('')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ResultAnalysis->fetchResults()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResultAnalysis))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()

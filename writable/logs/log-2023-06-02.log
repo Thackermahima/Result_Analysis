@@ -1,0 +1,87 @@
+CRITICAL - 2023-06-02 06:30:54 --> Call to undefined function App\Controllers\link_tag()
+in APPPATH\Controllers\ResultAnalysis.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ResultAnalysis->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResultAnalysis))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 06:31:49 --> Invalid file: "resultAnalysis.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('resultAnalysis.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('resultAnalysis', [], true)
+ 3 APPPATH\Controllers\ResultAnalysis.php(15): view('resultAnalysis')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ResultAnalysis->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResultAnalysis))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 06:31:50 --> Invalid file: "resultAnalysis.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('resultAnalysis.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('resultAnalysis', [], true)
+ 3 APPPATH\Controllers\ResultAnalysis.php(15): view('resultAnalysis')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ResultAnalysis->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResultAnalysis))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 06:33:01 --> Invalid file: "resultAnalysis.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('resultAnalysis.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('resultAnalysis', [], true)
+ 3 APPPATH\Controllers\ResultAnalysis.php(15): view('resultAnalysis')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ResultAnalysis->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResultAnalysis))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 06:33:07 --> Invalid file: "resultAnalysis.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('resultAnalysis.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('resultAnalysis', [], true)
+ 3 APPPATH\Controllers\ResultAnalysis.php(15): view('resultAnalysis')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ResultAnalysis->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResultAnalysis))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 06:33:08 --> Invalid file: "resultAnalysis.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('resultAnalysis.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('resultAnalysis', [], true)
+ 3 APPPATH\Controllers\ResultAnalysis.php(15): view('resultAnalysis')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ResultAnalysis->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResultAnalysis))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 06:33:08 --> Invalid file: "resultAnalysis.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('resultAnalysis.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('resultAnalysis', [], true)
+ 3 APPPATH\Controllers\ResultAnalysis.php(15): view('resultAnalysis')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ResultAnalysis->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResultAnalysis))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 06:36:12 --> Invalid file: "resultAnalysis.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('resultAnalysis.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('resultAnalysis', [], true)
+ 3 APPPATH\Controllers\ResultAnalysis.php(11): view('resultAnalysis')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ResultAnalysis->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResultAnalysis))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 06:41:03 --> Invalid file: "resultAnalysis.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('resultAnalysis.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('resultAnalysis', [], true)
+ 3 APPPATH\Controllers\ResultAnalysis.php(10): view('resultAnalysis')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ResultAnalysis->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResultAnalysis))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 06:48:38 --> Invalid file: "resultAnalysis.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('resultAnalysis.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('resultAnalysis', [], true)
+ 3 APPPATH\Controllers\ResultAnalysis.php(10): view('resultAnalysis')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ResultAnalysis->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResultAnalysis))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
